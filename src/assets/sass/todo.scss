@@ -1,0 +1,46 @@
+.todo {
+  &__list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__item {
+    margin: 12px 0;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__title {
+    width: 100px;
+  }
+
+  &__description {
+    width: 300px;
+  }
+
+  &__edit {
+    width: 100%;
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+  }
+
+  &__input-edit {
+    font-size: 16px;
+    height: 18px;
+    width: 100px;
+    border: 1px solid black;
+    padding: 5px 10px;
+
+    &--descr {
+      margin-left: 20px;
+      width: 220px;
+    }
+  }
+}
+
+.completed {
+  color: #999999;
+}

@@ -1,0 +1,1 @@
+{"version":3,"file":"error.css","sources":["error.scss"],"sourcesContent":[".error-text {\n  color: #FF3333;\n}\n\n.error-input {\n  box-shadow: inset 0px 0px 3px 0px #FF3333;\n}"],"names":[],"mappings":"AAAA,AAAA,WAAW,CAAC;EACV,KAAK,EAAE,OAAO,GACf;;AAED,AAAA,YAAY,CAAC;EACX,UAAU,EAAE,6BAA6B,GAC1C"}

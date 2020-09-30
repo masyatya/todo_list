@@ -1,0 +1,13 @@
+.table {
+  table-layout: auto;
+  width: 100%;
+  text-align: center;
+  border-collapse: separate;
+  border-spacing: 20px 0; }
+  .table__rows td {
+    padding: 20px 0; }
+  .table__rows p {
+    max-width: 500px;
+    text-align: left; }
+
+/*# sourceMappingURL=table.css.map */

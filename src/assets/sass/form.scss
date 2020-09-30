@@ -1,0 +1,80 @@
+.form {
+  padding: 55px 65px;
+  width: 550px;
+  background: #ffffff;
+  border-radius: 10px;
+
+  &__email {
+    width: 100%;
+  }
+
+  &-sign {
+    margin-top: 80px;
+  }
+
+  &__heading {
+    margin-bottom: 30px;
+    color: #525252;
+    font-weight: 400;
+    font-size: 24px;
+  }
+
+  &__row {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__label {
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #555555;
+  }
+
+  &__input {
+    width: 200px;
+    padding: 0 20px;
+    font-size: 16px;
+    color: #666666;
+    line-height: 50px;
+    background: #fafafa;
+    border-radius: 5px;
+    box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
+
+    &--email {
+      width: 510px;
+    }
+
+    &-add {
+      width: 310px;
+    }
+  }
+
+  &__textarea {
+    width: 310px;
+    resize: none;
+    height: 100px;
+  }
+
+  &__buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+
+  &__or {
+    line-height: 50px;
+  }
+
+  &__button {
+  }
+
+  .required::after {
+    content: '*';
+  }
+}

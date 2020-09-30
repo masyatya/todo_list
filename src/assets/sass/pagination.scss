@@ -1,0 +1,26 @@
+.pages {
+  margin: 50px 0;
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+
+  display: flex;
+  list-style: none;
+
+  &__link {
+    margin: 0 15px;
+    color: #000000;
+    border-radius: 5px;
+    padding: 5px 15px;
+    border: 1px solid transparent;
+
+    &--active {
+      color: #fff;
+      background-color: #0049B7;
+    }
+
+    &:hover {
+      border: 1px solid #0049B7;
+    }
+  }
+}

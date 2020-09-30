@@ -1,0 +1,52 @@
+.form {
+  padding: 55px 65px;
+  width: 550px;
+  background: #ffffff;
+  border-radius: 10px; }
+  .form__email {
+    width: 100%; }
+  .form-sign {
+    margin-top: 80px; }
+  .form__heading {
+    margin-bottom: 30px;
+    color: #525252;
+    font-weight: 400;
+    font-size: 24px; }
+  .form__row {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between; }
+  .form__item {
+    display: flex;
+    flex-direction: column; }
+  .form__label {
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #555555; }
+  .form__input {
+    width: 200px;
+    padding: 0 20px;
+    font-size: 16px;
+    color: #666666;
+    line-height: 50px;
+    background: #fafafa;
+    border-radius: 5px;
+    box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.08); }
+    .form__input--email {
+      width: 510px; }
+    .form__input-add {
+      width: 310px; }
+  .form__textarea {
+    width: 310px;
+    resize: none;
+    height: 100px; }
+  .form__buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px; }
+  .form__or {
+    line-height: 50px; }
+  .form .required::after {
+    content: '*'; }
+
+/*# sourceMappingURL=form.css.map */

@@ -1,0 +1,52 @@
+.button {
+  padding: 0 50px;
+  height: 50px;
+  font-size: 18px;
+  background-color: #0049B7;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Poppins', sans-serif;
+  transition: 0.2s;
+
+  &:hover {
+    background-color: #3867F5;
+  }
+
+  &__pink {
+    background-color: rgba($color: #F75990, $alpha: 0.9);
+
+    &:hover {
+      background-color: rgba($color: #F75990, $alpha: 1.0);
+    }
+  }
+
+  &__edit {
+    padding: 0;
+    min-width: 60px;
+    border: 1px solid #000000;
+    font-size: 12px;
+    height: 30px;
+    color: #000000;
+    background-color: #ffffff;
+
+    &:hover {
+      color: #ffffff;
+      background-color: #FF1D58;
+      border-color: transparent;
+    }
+
+    &--green {
+      height: 30px;
+      border: none;
+      margin-left: 10px;
+      color: #ffffff;
+      background-color: #0049B7;
+
+      &:hover {
+        background-color: #3867F5;
+      }
+    }
+
+  }
+}

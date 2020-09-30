@@ -1,0 +1,38 @@
+.button {
+  padding: 0 50px;
+  height: 50px;
+  font-size: 18px;
+  background-color: #0049B7;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Poppins', sans-serif;
+  transition: 0.2s; }
+  .button:hover {
+    background-color: #3867F5; }
+  .button__pink {
+    background-color: rgba(247, 89, 144, 0.9); }
+    .button__pink:hover {
+      background-color: #f75990; }
+  .button__edit {
+    padding: 0;
+    min-width: 60px;
+    border: 1px solid #000000;
+    font-size: 12px;
+    height: 30px;
+    color: #000000;
+    background-color: #ffffff; }
+    .button__edit:hover {
+      color: #ffffff;
+      background-color: #FF1D58;
+      border-color: transparent; }
+    .button__edit--green {
+      height: 30px;
+      border: none;
+      margin-left: 10px;
+      color: #ffffff;
+      background-color: #0049B7; }
+      .button__edit--green:hover {
+        background-color: #3867F5; }
+
+/*# sourceMappingURL=button.css.map */
